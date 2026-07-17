@@ -9,7 +9,7 @@ This project was completed in direct response to a job description for a Data An
 ## 1. Extract 📂
 
 * **Source:** The original "Snitch Clothing Sales" dataset from Kaggle.
-* **Action:** Loaded the raw `Snitch Sales Transaction.csv` file into a Pandas DataFrame.
+* **Action:** Loaded the raw `Snitch_Fashion_Sales_Uncleaned.csv` file into a Pandas DataFrame.
 * **Initial Diagnosis:** An initial analysis with `df.info()` revealed significant data quality issues:
     * **2500** total rows.
     * Widespread **missing values** in critical columns like `Units_Sold`, `Unit_Price`, and `City`.
